@@ -1805,3 +1805,12 @@ video {
 .rhap_button-clear:focus:not(:focus-visible) {
   outline:0
 }
+@media(max-width:530px){
+  .translate-y-\[3\.75rem\] {
+    --tw-translate-y:12.5rem
+  }
+  .pl-3{
+    padding-left: none;
+    margin-top: 5%;
+  }
+}

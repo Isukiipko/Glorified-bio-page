@@ -116,6 +116,7 @@ h5, h4, h3, h2, h1, p, em{
   background-size: cover;
     justify-content: center;
     overflow: hidden;
+    opacity: 0.8;
     background-image:url("../imgs/Screenshot\ 2024-11-20\ 082902.png");
   }
   
@@ -199,15 +200,19 @@ h5, h4, h3, h2, h1, p, em{
 
   }
   
-  @media(max-width: 500px) {
+  @media(max-width: 530px) {
     .card{
-      height: 450px;
+      height: 300px;
     }
     .card, .card-2{
+      width: 100% !important;
+    }
+    #cards, #cards-2{
+      width: 100% !important;
+    }
+    .flex-vertical{
       width: 100%;
     }
-  
-    
     .card-image {
       height: 80px;  
     }
@@ -225,11 +230,11 @@ h5, h4, h3, h2, h1, p, em{
     }
     
     .card-info-title > h3 {
-      font-size: 0.9em;
+      font-size: 1.2em;
     }
   
     .card-info-title > h4 {
-      font-size: 0.8em;
+      font-size: 1rem;
       margin-top: 4px;
     }
   }
