@@ -681,7 +681,7 @@ video {
   max-width:36rem
 }
 .-translate-y-\[4\.5rem\] {
-  --tw-translate-y:-2.7rem
+  --tw-translate-y:-5.8rem
 }
 .-translate-y-\[2\.5rem\] {
   --tw-translate-y:-2.5rem
@@ -732,7 +732,7 @@ video {
   transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 .translate-y-\[3\.75rem\] {
-  --tw-translate-y:17.5rem
+  --tw-translate-y:20.5rem
 }
 .scale-0 {
   --tw-scale-x:0;
@@ -1805,12 +1805,11 @@ video {
 .rhap_button-clear:focus:not(:focus-visible) {
   outline:0
 }
+.pl-3{
+  margin-top: 2%;
+}
 @media(max-width:530px){
   .translate-y-\[3\.75rem\] {
     --tw-translate-y:12.5rem
-  }
-  .pl-3{
-    padding-left: none;
-    margin-top: 5%;
   }
 }

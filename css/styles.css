@@ -148,7 +148,7 @@ h5, h4, h3, h2, h1, p, em{
       border-radius: 10px;
       cursor: pointer;
       display: flex;
-      height: 100px;
+      height: fit-content;
       flex-direction: column;
       position: relative;
       width: 35%;  
@@ -187,7 +187,7 @@ h5, h4, h3, h2, h1, p, em{
   
   /* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
   
-  @media(max-width: 1000px) {
+@media(max-width: 1000px) {
     
     #cards, #cards-2{    
       padding: 0px 0px;
@@ -199,7 +199,14 @@ h5, h4, h3, h2, h1, p, em{
     }
 
   }
-  
+  @media (max-width: 640px){
+    .card, .card-2{
+      width: 90% !important;
+    }
+    #cards, #cards-2{
+      width: 90% !important;
+    }
+  }
   @media(max-width: 530px) {
     .card{
       height: 300px;
@@ -239,8 +246,8 @@ h5, h4, h3, h2, h1, p, em{
     }
   }
   
-  @media(max-width: 1400px) {
-    .card, .card-2 {
-      width: 55%;
-    }
-  }
+    @media(max-width: 1400px) {
+      .card, .card-2 {
+        width: 55%;
+      }
+}
