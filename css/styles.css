@@ -135,7 +135,7 @@ h5, h4, h3, h2, h1, p, em{
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     gap: 15px;
   }
