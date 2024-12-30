@@ -111,13 +111,14 @@ h5, h4, h3, h2, h1, p, em{
     align-items: center;
     display: flex;
     height: 35%;
-    background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+    background-position: center;
+    background-position-y: 5%;
+    background-repeat: no-repeat; 
+    background-size: cover;
     justify-content: center;
     overflow: hidden;
     opacity: 0.8;
-    background-image:url("../imgs/Screenshot\ 2024-11-20\ 082902.png");
+    background-image:url("https://i.pinimg.com/736x/d9/2b/54/d92b54f4157f32a2eff80f157071f30b.jpg");
   }
   
   .card-image > i {
